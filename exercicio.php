@@ -1,7 +1,7 @@
 <?php
 $dia;
 
-$dia = readline ("EScolha um dia da semana:");
+$dia = readline ("Escolha um dia da semana:");
 
 switch($dia){
     case 1;
