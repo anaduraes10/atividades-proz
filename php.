@@ -1,0 +1,32 @@
+<?php
+class Livro{
+    public $titulo;
+    public $autor;
+    public $paginas; 
+
+}  
+$livro1 =new livro();
+
+$livro1->titulo= "Sangue é cinza";
+$livro1->autor="Sarah";
+$livro1->paginas=500; 
+
+
+$livro2 =new livro();
+
+$livro2->titulo= "Leitura de verão";
+$livro2->autor="Emilly";
+$livro2->paginas=300;
+ 
+
+echo "Livro 1:";
+echo "Título: " . $livro1->titulo . "\n";
+echo "Autor: " . $livro1->autor . "\n";
+echo "Páginas: " . $livro1->paginas .  "\n" . "\n";
+
+echo "Livro 2:";
+echo "Título: " . $livro2->titulo . "\n";
+echo "Autor: " . $livro2->autor . "\n";
+echo "Páginas: " . $livro2->paginas .  "\n" . "\n";
+
+?>
