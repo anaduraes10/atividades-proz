@@ -1,0 +1,137 @@
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu site</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    
+    <main>
+        <section class="principal" id="inicio">
+
+            <div class="texto">
+                <h1>
+                    Transformamos suas ideias em
+                    aplicativos, sites e layouts
+                    de alto impacto.
+                </h1>
+
+                <p>
+                    Desenvolvimento sob medida e design
+                    intuitivo para alavancar a presença
+                    digital do seu negócio.
+                </p>
+
+                <button type="button">
+                    Solicitar Orçamento
+                </button>
+
+                <div class="contato">
+                    <p>Falar com um Especialista</p>
+                </div>
+            </div>
+
+            <div class="imagem">
+                <img
+                    src="https://uploads.onecompiler.io/457n3utrn/1793303099525/mulher-dispositivos%20(1).png"
+                    alt="Mulher com celulares e tablets">
+            </div>
+
+        </section>
+
+        <section class="servicos" id="servicos">
+
+            <h2>O Que Fazemos</h2>
+
+            <div class="container-cards">
+
+                <article class="card">
+                    <div class="icone">📱</div>
+                    <h3>Aplicativos Mobile</h3>
+                    <h4>iOS e Android</h4>
+                    <p>
+                        Aplicativos móveis modernos e
+                        soluções para smartphones.
+                    </p>
+                </article>
+
+                <article class="card">
+                    <div class="icone">💻</div>
+                    <h3>Criação de Sites</h3>
+                    <h4>E-commerces e Landing Pages</h4>
+                    <p>
+                        Sites profissionais, lojas virtuais
+                        e páginas para apresentar negócios.
+                    </p>
+                </article>
+
+                <article class="card">
+                    <div class="icone">🎨</div>
+                    <h3>Design &amp; Layouts (UI/UX)</h3>
+                    <h4>Protótipos e Identidade Visual</h4>
+                    <p>
+                        Interfaces intuitivas, protótipos
+                        e identidade visual.
+                    </p>
+                </article>
+
+            </div>
+        </section>
+
+<section class="portfolio" id="portfolio">
+
+    <div class="portfolio-cabecalho">
+        <h2>Nosso Portfólio</h2>
+    </div>
+
+    <div class="portfolio-filtros">
+        <button class="filtro ativo" data-filtro="todos">Todos</button>
+        <button class="filtro" data-filtro="apps">Apps</button>
+        <button class="filtro" data-filtro="sites">Sites</button>
+        <button class="filtro" data-filtro="design">Design/Layouts</button>
+    </div>
+
+    <div class="portfolio-galeria">
+
+        <article class="projeto" data-categoria="apps">
+            <img src="https://images.unsplash.com/photo-1512941937669-90a1b58e7e9c?w=700" alt="Aplicativo em um celular">
+
+            <div class="projeto-info">
+                <h3>App FitLife</h3>
+                <p>Aplicativo mobile</p>
+            </div>
+        </article>
+
+        <article class="projeto" data-categoria="sites">
+            <img src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=700" alt="Site em uma tela de computador">
+
+            <div class="projeto-info">
+                <h3>Site EcoStore</h3>
+                <p>E-commerce</p>
+            </div>
+        </article>
+
+        <article class="projeto" data-categoria="apps">
+            <img src="https://images.unsplash.com/photo-1551650975-87deedd944c3?w=700" alt="Interface de aplicativo">
+
+            <div class="projeto-info">
+                <h3>App EioStore</h3>
+                <p>Aplicativo de compras</p>
+            </div>
+        </article>
+
+    </div>
+</section>
+
+ </main> 
+  
+  
+
+</body>
+</html>
+
+
