@@ -1,0 +1,127 @@
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu site</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    
+    <main>
+        <section class="principal" id="inicio">
+
+            <div class="texto">
+                <h1>
+                    Transformamos suas ideias em
+                    aplicativos, sites e layouts
+                    de alto impacto.
+                </h1>
+
+                <p>
+                    Desenvolvimento sob medida e design
+                    intuitivo para alavancar a presença
+                    digital do seu negócio.
+                </p>
+
+                <button type="button">
+                    Solicitar Orçamento
+                </button>
+
+                <div class="contato">
+                    <p>Falar com um Especialista</p>
+                </div>
+            </div>
+
+            <div class="imagem">
+                <img
+                    src="https://uploads.onecompiler.io/457n3utrn/1793303099525/mulher-dispositivos%20(1).png"
+                    alt="Mulher com celulares e tablets">
+            </div>
+
+        </section>
+
+        <section class="servicos" id="servicos">
+
+            <h2>O Que Fazemos</h2>
+
+            <div class="container-cards">
+
+                <article class="card">
+                    <div class="icone">📱</div>
+                    <h3>Aplicativos Mobile</h3>
+                    <h4>iOS e Android</h4>
+                    <p>
+                        Aplicativos móveis modernos e
+                        soluções para smartphones.
+                    </p>
+                </article>
+
+                <article class="card">
+                    <div class="icone">💻</div>
+                    <h3>Criação de Sites</h3>
+                    <h4>E-commerces e Landing Pages</h4>
+                    <p>
+                        Sites profissionais, lojas virtuais
+                        e páginas para apresentar negócios.
+                    </p>
+                </article>
+
+                <article class="card">
+                    <div class="icone">🎨</div>
+                    <h3>Design &amp; Layouts (UI/UX)</h3>
+                    <h4>Protótipos e Identidade Visual</h4>
+                    <p>
+                        Interfaces intuitivas, protótipos
+                        e identidade visual.
+                    </p>
+                </article>
+
+            </div>
+        </section>
+
+        section class="projetos-imagem layout">
+  <div class="portifolio-cabecalho"> 
+    <p class="portifolio-etiqueta">NOSSOS PROJETOS</p> 
+    
+    <H2>Ideias que se transformam em resultados.</h2>
+
+    <p>Coheça alguns exemplos de soluções digitais
+      que podemos criar para o seu negócio.
+    </p>
+  </div>
+
+  <div class="portifolio-filtros">
+    <button class= "filtro ativo" data-filtro="todos">
+      Todos
+    </button>
+    <button class="filtros"data-filtros="aplicativos">
+      Aplicativos
+    </button>
+     <button class="filtros"data-filtros="site">
+      Sites
+    </button>
+     <button class="filtros"data-filtros="design">
+      Design
+    </button>
+     <button class="filtros"data-filtros="layouts">
+      Layouts
+    </button>
+    <div clss="portifolio-galeria">
+      <article class="projeto" data-categoria="aplicativos">
+        <div class="projeto da imagem app">
+          
+        </div>
+      </article>
+    </div>
+
+  </div>
+ </section>
+ </main> 
+  
+  
+
+</body>
+</html>
